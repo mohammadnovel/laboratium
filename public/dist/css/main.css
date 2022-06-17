@@ -1,0 +1,130 @@
+.swal2-content .form-container{
+    margin: 10px;
+}
+.swal2-content .form-control{
+    margin-bottom: 10px;
+}
+
+.swal2-content .form-container em.error{
+    font-size: 10px;
+    color: red;
+    text-align: left;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: -5px;
+}
+
+.swal2-content .form-container label, .swal2-content .form-container span.invalid-feedback{
+    font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+    display: block;
+}
+
+.swal2-content .form-container span.invalid-feedback{
+    font-size: 11px;
+}
+
+.table-image{
+    display: block;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.table-image img{
+    width: 100%;
+}
+
+.form-group .select2-container {
+  width: 100% !important;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu{
+    width: 18rem;
+}
+
+.item-list{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.item-list .flying-button{
+    position: absolute;
+    display: none;
+    top: 0;
+    right: 0;
+}
+
+.item-list:hover .flying-button{
+    display: block;
+}
+
+.wizard > .content > .body input[type="radio"]{
+    display: inline !important;
+}
+
+#setting-button{
+    font-size: 25px;
+}
+
+#setting-button i{
+    color: #53b192;
+}
+
+.bg-green {
+    background-color: #53b192 !important;
+}
+
+.detail-shipment-dialog{
+    width: 70% !important;
+}
+
+
+
+.dropdown-action-btn .dropdown-menu a{
+    color: #212529 !important;
+}
+
+.detail-order-dialog{
+    width: 70% !important;
+    text-align: left;
+}
+
+.detail-order-dialog table tr td, .detail-order-dialog table tr th{
+    text-align: left;
+}
+
+.loading-overlay{
+    z-index: 999999 !important;
+}
+
+.timeline-time-badge{
+    line-height: 10px !important;
+    top: 10px !important;
+}
+.timeline-time-badge span{
+    display: inline-block;
+}
+
+.select2-container--classic .select2-selection--single,
+.select2-container--default .select2-selection--multiple,
+.select2-container--default .select2-selection--single,
+.select2-container--default .select2-selection--single .select2-selection_arrow,
+.select2-container--default .select2-selection--single .select2-selection_rendered {
+    border: 1px solid #e9ecef;
+    height: 40px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #666666;
+    line-height: 40px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 26px;
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    width: 20px;
+}

@@ -1,0 +1,533 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background: #F5F5F5;
+}
+#main{
+    /* background: #0E4CA1; */
+    color: #000000;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+ 
+.nav-link {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+}
+/* Fixes dropdown menus placed on the right side */
+.ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px;
+}
+.overview h4{
+    color: #9E9E9E;
+    font-size: 16px;
+}
+.overview h2{
+    font-weight: 800;
+    font-size: 40px;
+}
+#product-overview .overview p{
+    color: #12121299;
+    margin-top: 30px;
+    margin-bottom: 60px;   
+    text-align: justify;
+}
+
+#activity .overview p{
+    color: #12121299;
+    margin-bottom: 60px;   
+    font-size: 17px;
+}
+
+img.rounded-circle.img-fluid.img-article {
+    height: 75px;
+    width: 75px;
+}
+
+
+[class^='sm_state']{
+    stroke-width: 0 !important;
+}
+
+.title-blue{
+    top: 190px;
+    left: 442px;
+    /* UI Properties */
+    text-align: center;
+    letter-spacing: 1.43px;
+    color: #0E4CA1;
+    opacity: 1;
+}
+
+#main .navbar{
+    padding-top: 40px;
+}
+#main .navbar-nav .nav-item{
+    padding: 0 20px;
+}
+#main .navbar-nav .nav-link{
+    color: #000000;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+#main .navbar-nav .active{
+    color: #0E4CA1;
+    font-weight: 500;
+
+}
+#main .navbar-brand{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    color: #FFEE77;
+    font-size: 30px;
+}
+#main .navbar-brand span{
+    color: white;
+}
+#main .main-footer{
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
+#main .main-footer h2{
+    font-weight: 400;
+}
+#product-overview{
+    padding-top: 100px;
+}
+#product-overview .main-product{
+    position: relative;
+}
+#product-overview .main-product .title{
+    position: absolute;
+    bottom: 0;
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+#product-overview .main-product .title h1{
+    font-weight: 800;
+    color: white;
+}
+#product-overview .main-product .title h4{
+    font-weight: 300;
+    font-size: 24px;
+    color: #FFEE77;
+}
+#product-overview .other-product, #product-overview .list-product, #product-overview .paging-navigation{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#product-overview .other-product h4{
+    color: #9E9E9E;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+#product-overview .other-product h2{
+    font-weight: 800;
+    font-size: 40px;
+}
+#product-overview .other-product p{
+    color: #12121299;
+}
+#product-overview .other-product .paging-count{
+    font-size: 28px;
+}
+#product-overview .other-product .paging-count span{
+    font-weight: 800;
+}
+#product-overview .other-product .link-all-product{
+    text-align: left;
+}
+#product-overview .other-product .link-all-product a{
+    margin-top: 10px;
+    display: inline-block;
+}
+#product-overview .list-product{
+    position: relative;
+    margin-bottom: 70px;
+}
+#product-overview .list{
+    position: relative;
+    margin-bottom: 70px;
+}
+#product-overview .list .product-img{
+    width: 100%;
+    margin: auto;
+}
+#product-overview .list .title{
+    position: absolute;
+    bottom: 0;
+    padding: 15px 30px;
+}
+#product-overview .list .title h2{
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+}
+#product-overview .list .title h4{
+    font-weight: 300;
+    font-size: 20px;
+    color: #FFEE77;
+}
+#product-overview .list-product .slick-slide{
+    margin-right: 30px;
+}
+.get-product a {
+    text-decoration: none;
+}
+
+.get-product .img-logo-wa {
+    width: 70px;
+    height: 50px;
+}
+
+.get-product a img {
+    padding-left: 20px;
+    margin-top: -8px;
+}
+
+.product-direct a{
+    text-decoration: none;
+}
+#activity{
+    padding-top: 100px;
+}
+#activity .overview{
+    margin-bottom: 60px;
+}
+#activity .activities .activity{
+    margin-bottom: 70px;
+}
+#activity .activities .inner-activity{
+    background: white;
+    border-radius: 28px;
+    padding: 16px;
+    min-height: 500px;
+    box-shadow: 10px 24px 99px #0000000D;
+}
+#activity .activities .inner-activity .img-container{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#activity .activities .inner-activity img{
+    border-radius: 28px;
+    max-width: none;
+    width: 100%;
+}
+#activity .activities .inner-activity h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+#activity .activities .inner-activity small{
+    font-size: 16px;
+    color: #939393;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-weight: 100;
+}
+#activity .activities .inner-activity p a{
+    text-decoration: none;
+    font-weight: 700;
+}
+#events{
+    padding-top: 100px;
+}
+#events .overview{
+    margin-bottom: 50px;
+}
+#events .overview p{
+    margin-top: 30px;
+}
+#events .events .inner-event{
+    background: white;
+    border-radius: 28px;
+    padding: 16px;
+}
+#events .events .inner-event .img-container{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#activity .activities .inner-activity .img-container .img-gallery{
+    height: 300px;
+    object-fit: cover;
+}
+#events .events .inner-event img{
+    border-radius: 28px;
+    max-width: none;
+    width: 100%;
+}
+#events .events .inner-event h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+#events .events .inner-event small{
+    font-size: 16px;
+    color: #939393;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-weight: 100;
+}
+#events .events .inner-event small.location{
+    color: #0025FF;
+    
+}
+#events .events .inner-event p a{
+    text-decoration: none;
+    font-weight: 700;
+}
+#events .events .inner-event .btn-info{
+    background: #FFEE77;
+    color: #0E4CA1;
+    border-radius: 100px;
+    border: none;
+    font-size: 16px;
+    padding: 13px 32px;
+}
+#events .events .other-events{
+    padding-left: 50px;
+}
+#events .events .other-events .list{
+    padding: 20px 0;
+    border-bottom: 1px #e2e2e2 solid;
+}
+#events .events .other-events .list:last-child{
+    border-bottom: none;
+}
+#events .events .other-events .list img{
+    border-radius: 30px;
+}
+#events .events .other-events .list h2{
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+#events .events .other-events .list small{
+    color: #939393;
+    font-weight: 100;
+    font-size: 14px;
+}
+#events .events .other-events .more-events{
+    margin-top: 10px;
+}
+#project-overview{
+    padding-top: 100px;
+}
+#footer{
+    padding-top: 100px;
+}
+#footer h1{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    color: #0E4CA1;
+    font-size: 30px;
+}
+#footer h2{
+    font-weight: 100;
+    color: #0E4CA1;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+#footer ul, #footer ul li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 10px;
+}
+
+#footer ul li a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+#footer input{
+    border-radius: 24px;
+    border-color: #0E4CA1;
+}
+#footer .form-group{
+    margin-bottom: 10px;
+}
+#footer .btn-primary{
+    background: #0E4CA1;
+    padding: 10px 36px
+}
+#footer .copyright{
+    padding: 20px 0;
+    border-top: solid 1px #e2e2e2;
+    margin-top: 40px;
+}
+#footer .copyright, #footer .copyright a{
+    color: #33333380;
+    font-size: 14px;
+}
+
+.icon-bar-container{
+    display: inline-block;
+    cursor: pointer;
+}
+.bar1, .bar2, .bar3 {
+width: 30px;
+height: 3px;
+background-color: #FFF;
+margin: 6px 0;
+transition: 0.4s;
+}
+
+.change .bar1 {
+-webkit-transform: rotate(-45deg) translate(-7px, 7px);
+transform: rotate(-45deg) translate(-7px, 7px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+-webkit-transform: rotate(45deg) translate(-5px, -7px);
+transform: rotate(45deg) translate(-5px, -7px);
+}
+
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.icon-bar-container.blue .bar1, .icon-bar-container.blue .bar2, .icon-bar-container.blue .bar3{
+    background-color: #0E4CA1;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-bottom: 2px solid #EBEBEB;
+    background-color: transparent;
+}
+
+.nav-tabs  {
+    border: none;
+    color: #000000;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    color: #959595;
+}
+/*X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .activity-content {
+        margin : 10px;
+    }
+    #activity, #product-overview, #events {
+        padding-top: 30px;
+    }
+    #main .container .navbar-brand img{
+        width: 250px;
+    }
+    #main .container .navbar{
+        padding-top: 10px;
+    }
+    #main .navbar-nav{
+        display: block;
+    }
+    #main .navbar-nav.my-2{
+        display: none;
+    }
+    #main .navbar-nav .nav-item{
+        display: block;
+        text-align: center;
+    }
+    #product-overview .list-product{
+        margin-bottom: 10px;
+    }
+    .list-product .slick-slide img.img-fluid{
+        width: 220px;
+    }
+    #product-overview .list-product{
+        padding: 0
+    }
+    #partner {
+        padding-top: 30px;
+        margin-bottom: 10px;
+    }
+    #partner img{
+        height: 50px;
+    }
+    #footer{
+        padding-top: 30px;
+    }
+    #footer img{
+        margin-top: -100px;
+        width: 150;
+        margin-bottom: 20px;
+        margin-left: 150px;
+    }
+    #footer ul, #footer ul li{
+        padding-right: 0px;
+    }
+    #footer h2{
+        margin-bottom: 5px;
+    }
+
+    #product-overview .overview p{
+        color: #000000;
+        margin-top: 30px;
+        margin-bottom: 60px;   
+    }
+
+    iframe {
+        width: 100%;
+        /* margin: 20px; */
+    }
+
+    #footer h2{
+        margin-bottom: 5px;
+    }
+
+    #partner img{
+        width: fit-content;
+        height: auto;
+    }
+    
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    #footer img{
+        margin-top: -120px;
+        margin-bottom: 20px;
+        margin-left: 180px;
+    }
+
+    #footer ul, #footer ul li{
+        padding-right: 0px;
+    }
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+
+}
+
+/*X-Large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) {
+
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+    padding-right: 20px;
+}
+
+.img-footer {
+    width: 120px;
+    height: 120px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
